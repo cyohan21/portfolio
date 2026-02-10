@@ -37,7 +37,7 @@ const projects: {
     name: "Flopp",
     description:
       "Ottawa's first social network where users can discover local spots, share experiences about restaurants, events, and activities, and connect with other Ottawa residents. Features local discovery, location-based content, community building, and social interactions like likes and comments around local experiences and recommendations.",
-    tech: [],
+    tech: ["React Native", "Expo", "TypeScript", "Node.js", "Express", "PostgreSQL", "MongoDB", "Prisma", "Firebase", "OneSignal", "Next.js"],
     link: "https://github.com/cyohan21/__PUBLIC__-flopp.app",
     website: "https://flopp.app",
   },
@@ -45,7 +45,7 @@ const projects: {
     name: "Spending Tracker",
     description:
       "A playful, AI-powered mobile spending tracker designed to help users effortlessly manage their finances. Inspired by apps like oops.app and Duolingo's engagement model, it aims to make personal finance fun, social, and habit-forming.",
-    tech: [],
+    tech: ["React Native", "TypeScript", "Node.js", "Express", "PostgreSQL", "MongoDB", "BetterAuth", "Google Cloud", "Plaid", "Sentry"],
     link: "https://github.com/cyohan21/spending-tracker-v1",
   },
 ];

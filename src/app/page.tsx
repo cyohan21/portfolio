@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 const workExperience = [
@@ -76,45 +77,57 @@ export default function Home() {
   return (
     <div>
       {/* Hero */}
-      <section className="mb-16">
-        <h1 className="mb-4 text-2xl font-medium tracking-tight text-neutral-100">
-          Caleb Yohannes
-        </h1>
-        <p className="max-w-lg leading-relaxed text-neutral-400">
-          The most ambitious person you&apos;ll ever meet, trying to build the
-          future.
-        </p>
-        <div className="mt-4 flex gap-4 text-sm text-neutral-500">
-          <a
-            href="https://github.com/cyohan21"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="transition-colors hover:text-neutral-300"
-          >
-            github
-          </a>
-          <a
-            href="https://linkedin.com/in/cyohan21"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="transition-colors hover:text-neutral-300"
-          >
-            linkedin
-          </a>
-          <a
-            href="https://x.com/cyohan21"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="transition-colors hover:text-neutral-300"
-          >
-            x
-          </a>
-          <a
-            href="mailto:calebyhns@gmail.com"
-            className="transition-colors hover:text-neutral-300"
-          >
-            email
-          </a>
+      <section className="mb-16 flex flex-col gap-6 sm:flex-row sm:items-start sm:justify-between">
+        <div className="order-2 sm:order-1">
+          <h1 className="mb-4 text-2xl font-medium tracking-tight text-neutral-100">
+            Caleb Yohannes
+          </h1>
+          <p className="max-w-lg leading-relaxed text-neutral-400">
+            The most ambitious person you&apos;ll ever meet, trying to build the
+            future.
+          </p>
+          <div className="mt-4 flex gap-4 text-sm text-neutral-500">
+            <a
+              href="https://github.com/cyohan21"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="transition-colors hover:text-neutral-300"
+            >
+              github
+            </a>
+            <a
+              href="https://linkedin.com/in/cyohan21"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="transition-colors hover:text-neutral-300"
+            >
+              linkedin
+            </a>
+            <a
+              href="https://x.com/cyohan21"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="transition-colors hover:text-neutral-300"
+            >
+              x
+            </a>
+            <a
+              href="mailto:calebyhns@gmail.com"
+              className="transition-colors hover:text-neutral-300"
+            >
+              email
+            </a>
+          </div>
+        </div>
+        <div className="order-1 shrink-0 sm:order-2">
+          <Image
+            src="/profile.png"
+            alt="Portrait of Caleb Yohannes"
+            width={128}
+            height={128}
+            priority
+            className="h-28 w-28 rounded-full object-cover ring-1 ring-neutral-700 sm:h-32 sm:w-32"
+          />
         </div>
       </section>
 

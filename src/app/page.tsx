@@ -83,8 +83,10 @@ export default function Home() {
             Caleb Yohannes
           </h1>
           <p className="max-w-lg leading-relaxed text-neutral-400">
-            The most ambitious person you&apos;ll ever meet, trying to build the
-            future.
+            Software engineer with close to 5 years of experience building
+            production systems across commerce, fintech, and healthcare AI.
+            built an extraction pipeline that achieved 99% reliability across
+            all EHR systems for our customers.
           </p>
           <div className="mt-4 flex gap-4 text-sm text-neutral-500">
             <a
